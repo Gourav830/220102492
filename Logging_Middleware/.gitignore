@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+lib/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp

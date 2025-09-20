@@ -1,0 +1,26 @@
+{
+  "name": "logging-middleware",
+  "version": "0.1.0",
+  "description": "Reusable logging middleware and Log(stack, level, package, message) utility",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev:test": "node examples/test.js",
+    "dev:server": "node examples/server.js"
+  },
+  "keywords": [
+    "logging",
+    "middleware",
+    "log",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}

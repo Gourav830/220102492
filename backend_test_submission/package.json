@@ -1,0 +1,30 @@
+{
+  "name": "backend_test_submission",
+  "version": "1.0.0",
+  "description": "A robust and scalable URL shortener service built with Node.js, Express, and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"No linting configured\"",
+    "clean": "echo \"Cleaning up expired URLs...\" && node -e \"require('./src/utils/helpers').cleanupExpiredUrls(require('./src/models/urlModel'))\""
+  },
+  "keywords": [
+    "url-shortener",
+    "nodejs",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "Gourav830",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "logging-middleware": "file:../Logging_Middleware",
+    "mongoose": "^8.18.1",
+    "nanoid": "^5.1.5"
+  }
+}
